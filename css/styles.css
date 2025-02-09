@@ -62,6 +62,16 @@ button {
 
 .address-list {}
 
+.contact-link {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+
+}
+.contact-link:hover,
+.contact-link:focus {
+    color: #404bbf;
+}
 .address-item {
     font-weight: 400;
     font-size: 16px;
