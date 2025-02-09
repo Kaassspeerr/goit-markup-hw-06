@@ -148,7 +148,7 @@ button {
     background-color: #f4f4fd;
 }
 
-.team-titel {
+.team-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -160,13 +160,13 @@ button {
 
 .team-list {}
 
-.team-list-iteam {
+.team-list-item {
     background-color: #fff;
 }
 
 .team-foto {}
 
-.team-list-titel {
+.team-list-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -188,7 +188,7 @@ button {
 
 .portfolio {}
 
-.portfolio-titel {
+.portfolio-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -202,9 +202,9 @@ button {
 
 .portfolio-list-item {}
 
-.portfolio-foto {}
+.portfolio-photo {}
 
-.portfolio-list-titel {
+.portfolio-list-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
