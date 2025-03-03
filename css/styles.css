@@ -885,3 +885,7 @@ border: none;
     fill: #fff;
     margin-left: 16px;
 }
+
+.input-user:focus~.modal-form-icon {
+    fill: #4D5AE5;
+}
