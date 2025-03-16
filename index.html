@@ -26,12 +26,12 @@
     <header class="header">
       <div class="container header-container">
         <nav class="header-nav">
-          <a href="./index.html" class="logo">
-            Web<span class="logo-text">Studio</span>
-          </a>
+          <a href="./index.html" class="logo logo-header"
+            >Web<span class="logo-text">Studio</span></a
+          >
           <ul class="header-nav-list">
             <li class="header-nav-item">
-              <a class="header-link-studio" href="/">Studio</a>
+              <a class="header-link current" href="./index.html">Studio</a>
             </li>
             <li class="header-nav-item">
               <a class="header-link" href="">Portfolio</a>
@@ -44,12 +44,12 @@
         <address class="address">
           <ul class="address-list">
             <li>
-              <a href="mailto:info@devstudio.com" class="contact-link"
+              <a class="address-item" href="mailto:info@devstudio.com"
                 >info@devstudio.com</a
               >
             </li>
             <li>
-              <a href="tel:+110001111111" class="contact-link"
+              <a class="address-item" href="tel:+110001111111"
                 >+11 (000) 111-11-11</a
               >
             </li>
@@ -61,6 +61,7 @@
           </svg>
         </button>
       </div>
+      <!-- Mobile Menu -->
       <div class="mobile-menu is-open">
         <div class="container mobile-menu-container">
           <button class="mobile-menu-close">
@@ -134,24 +135,25 @@
     </header>
 
     <main>
+      <!--HERO-->
       <section class="business">
         <div class="container">
-          <h1 class="business-title">Effective Solutions for Your Business</h1>
-          <button class="business-button" type="button">Order Service</button>
+          <h1 class="business-titel">Effective Solutions for Your Business</h1>
+          <button class="business-btn" type="button">Order Service</button>
         </div>
       </section>
-
+      <!--ADVANTAGES-->
       <section class="advantages">
-        <div class="container">
+        <div class="container advantages-container">
           <h2 class="visually-hidden">Advantages</h2>
           <ul class="advantages-list">
             <li class="advantages-list-item">
               <div class="icon-item">
-                <svg width="64" height="64">
+                <svg width="64" height="64" class="advantages-icon">
                   <use href="./images/icons.svg#icon-antenna"></use>
                 </svg>
               </div>
-              <h3 class="advantages-title">Strategy</h3>
+              <h3 class="advantages-titel">Strategy</h3>
               <p class="advantages-text">
                 Our goal is to identify the business problem to walk away with
                 the perfect and creative solution.
@@ -159,11 +161,11 @@
             </li>
             <li class="advantages-list-item">
               <div class="icon-item">
-                <svg width="64" height="64">
+                <svg width="64" height="64" class="advantages-icon">
                   <use href="./images/icons.svg#icon-clock"></use>
                 </svg>
               </div>
-              <h3 class="advantages-title">Punctuality</h3>
+              <h3 class="advantages-titel">Punctuality</h3>
               <p class="advantages-text">
                 Bring the key message to the brand's audience for the best price
                 within the shortest possible time.
@@ -171,11 +173,11 @@
             </li>
             <li class="advantages-list-item">
               <div class="icon-item">
-                <svg width="64" height="64">
+                <svg width="64" height="64" class="advantages-icon">
                   <use href="./images/icons.svg#icon-diagram"></use>
                 </svg>
               </div>
-              <h3 class="advantages-title">Diligence</h3>
+              <h3 class="advantages-titel">Diligence</h3>
               <p class="advantages-text">
                 Research and confirm brands with the strongest digital growth
                 opportunities and minimize risk.
@@ -183,11 +185,11 @@
             </li>
             <li class="advantages-list-item">
               <div class="icon-item">
-                <svg width="64" height="64">
+                <svg width="64" height="64" class="advantages-icon">
                   <use href="./images/icons.svg#icon-astronaut"></use>
                 </svg>
               </div>
-              <h3 class="advantages-title">Technologies</h3>
+              <h3 class="advantages-titel">Technologies</h3>
               <p class="advantages-text">
                 Design practice focused on digital experiences. We bring forth a
                 deep passion for problem-solving.
@@ -196,12 +198,12 @@
           </ul>
         </div>
       </section>
-
+      <!--TEAM-->
       <section class="team">
         <div class="container">
-          <h2 class="team-title">Our Team</h2>
+          <h2 class="team-titel">Our Team</h2>
           <ul class="team-list">
-            <li class="team-list-item">
+            <li class="team-list-iteam">
               <picture>
                 <source
                   srcset="./images/mark.jpg 1x, ./images/mark-2x.jpg 2x"
@@ -218,7 +220,7 @@
                 <img src="./images/mark.jpg" alt="Mark" />
               </picture>
               <div class="container-team">
-                <h3 class="team-list-title">Mark Guerrero</h3>
+                <h3 class="team-list-titel">Mark Guerrero</h3>
                 <p class="team-text">Product Designer</p>
                 <ul class="media-list">
                   <li class="media-item">
@@ -252,7 +254,7 @@
                 </ul>
               </div>
             </li>
-            <li class="team-list-item">
+            <li class="team-list-iteam">
               <source
                 srcset="./images/tom.jpg 1x, ./images/tom-2x.jpg 2x"
                 media="(min-width: 1158px)"
@@ -267,7 +269,7 @@
               />
               <img src="./images/tom.jpg" alt="Tom" />
               <div class="container-team">
-                <h3 class="team-list-title">Tom Ford</h3>
+                <h3 class="team-list-titel">Tom Ford</h3>
                 <p class="team-text">Frontend Developer</p>
                 <ul class="media-list">
                   <li class="media-item">
@@ -277,7 +279,6 @@
                       </svg>
                     </a>
                   </li>
-
                   <li class="media-item">
                     <a href="" class="media">
                       <svg class="media-icon" width="16" height="16">
@@ -285,7 +286,6 @@
                       </svg>
                     </a>
                   </li>
-
                   <li class="media-item">
                     <a href="" class="media">
                       <svg class="media-icon" width="16" height="16">
@@ -293,7 +293,6 @@
                       </svg>
                     </a>
                   </li>
-
                   <li class="media-item">
                     <a href="" class="media">
                       <svg class="media-icon" width="16" height="16">
@@ -304,7 +303,7 @@
                 </ul>
               </div>
             </li>
-            <li class="team-list-item">
+            <li class="team-list-iteam">
               <source
                 srcset="./images/camila.jpg 1x, ./images/camila-2x.jpg 2x"
                 media="(min-width: 1158px)"
@@ -319,7 +318,7 @@
               />
               <img src="./images/camila.jpg" alt="Camila" />
               <div class="container-team">
-                <h3 class="team-list-title">Camila Garcia</h3>
+                <h3 class="team-list-titel">Camila Garcia</h3>
                 <p class="team-text">Marketing</p>
                 <ul class="media-list">
                   <li class="media-item">
@@ -329,7 +328,6 @@
                       </svg>
                     </a>
                   </li>
-
                   <li class="media-item">
                     <a href="" class="media">
                       <svg class="media-icon" width="16" height="16">
@@ -337,7 +335,6 @@
                       </svg>
                     </a>
                   </li>
-
                   <li class="media-item">
                     <a href="" class="media">
                       <svg class="media-icon" width="16" height="16">
@@ -345,7 +342,6 @@
                       </svg>
                     </a>
                   </li>
-
                   <li class="media-item">
                     <a href="" class="media">
                       <svg class="media-icon" width="16" height="16">
@@ -356,7 +352,7 @@
                 </ul>
               </div>
             </li>
-            <li class="team-list-item">
+            <li class="team-list-iteam">
               <source
                 srcset="./images/daniel.jpg 1x, ./images/daniel-2x.jpg 2x"
                 media="(min-width: 1158px)"
@@ -371,7 +367,7 @@
               />
               <img src="./images/daniel.jpg" alt="Daniel" />
               <div class="container-team">
-                <h3 class="team-list-title">Daniel Wilson</h3>
+                <h3 class="team-list-titel">Daniel Wilson</h3>
                 <p class="team-text">UI Designer</p>
                 <ul class="media-list">
                   <li class="media-item">
@@ -381,7 +377,6 @@
                       </svg>
                     </a>
                   </li>
-
                   <li class="media-item">
                     <a href="" class="media">
                       <svg class="media-icon" width="16" height="16">
@@ -389,7 +384,6 @@
                       </svg>
                     </a>
                   </li>
-
                   <li class="media-item">
                     <a href="" class="media">
                       <svg class="media-icon" width="16" height="16">
@@ -397,7 +391,6 @@
                       </svg>
                     </a>
                   </li>
-
                   <li class="media-item">
                     <a href="" class="media">
                       <svg class="media-icon" width="16" height="16">
@@ -411,10 +404,10 @@
           </ul>
         </div>
       </section>
-
+      <!--PORTFOLIO-->
       <section class="portfolio">
         <div class="container">
-          <h2 class="portfolio-title">Our portfolio</h2>
+          <h2 id="portfolio" class="portfolio-titel">Our Portfolio</h2>
           <ul class="portfolio-list">
             <li class="portfolio-list-item">
               <div class="portfolio-block">
@@ -449,7 +442,7 @@
                 </p>
               </div>
               <div class="container-portfolio">
-                <h3 class="portfolio-list-benefits">Banking App</h3>
+                <h3 class="portfolio-list-titel">Banking App</h3>
                 <p class="portfolio-text">App</p>
               </div>
             </li>
@@ -489,7 +482,7 @@
                 </p>
               </div>
               <div class="container-portfolio">
-                <h3 class="portfolio-list-benefits">Cashless Payment</h3>
+                <h3 class="portfolio-list-titel">Cashless Payment</h3>
                 <p class="portfolio-text">Marketing</p>
               </div>
             </li>
@@ -525,9 +518,8 @@
                   · Cloud Storage App
                 </p>
               </div>
-
               <div class="container-portfolio">
-                <h3 class="portfolio-list-benefits">Meditation App</h3>
+                <h3 class="portfolio-list-titel">Meditation App</h3>
                 <p class="portfolio-text">App</p>
               </div>
             </li>
@@ -564,8 +556,7 @@
                 </p>
               </div>
               <div class="container-portfolio">
-                <h3 class="portfolio-list-benefits">Taxi Service</h3>
-
+                <h3 class="portfolio-list-titel">Taxi Service</h3>
                 <p class="portfolio-text">Marketing</p>
               </div>
             </li>
@@ -605,7 +596,7 @@
                 </p>
               </div>
               <div class="container-portfolio">
-                <h3 class="portfolio-list-benefits">Screen Illustrations</h3>
+                <h3 class="portfolio-list-titel">Screen Illustrations</h3>
                 <p class="portfolio-text">Design</p>
               </div>
             </li>
@@ -635,7 +626,6 @@
                   />
                   <img src="./images/online-mobile.jpg" alt="Online Courses" />
                 </picture>
-
                 <p class="overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -643,7 +633,7 @@
                 </p>
               </div>
               <div class="container-portfolio">
-                <h3 class="portfolio-list-benefits">Online Courses</h3>
+                <h3 class="portfolio-list-titel">Online Courses</h3>
                 <p class="portfolio-text">Marketing</p>
               </div>
             </li>
@@ -651,7 +641,7 @@
         </div>
       </section>
     </main>
-
+    <!--FOOTER-->
     <footer class="footer">
       <div class="container container-footer">
         <div class="logo-footer-first">
